@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav-bar{
+    background-color: #0F1111;
+    height: 60px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.amzlogo{
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    background-image: url("assests/amazon_logo.png");
+    height: 50px;
+    width: 100%;
+    background-size:cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-col{
+    margin-left: 0.8rem;
+}
+.first-adds{
+    color: #cccccc;
+    margin-left: 1rem;
+    /* margin-left: 10px; */
+    
+}
+.loc{
+    display: flex;
+    gap: 4px;
+}
+.nav-search{
+    display: flex;
+    /* align-items: center; */
+    width: 45rem;
+    height: 40px;
+    /* background-color: aqua; */
+    margin-left: 1rem;
+    border: none;
+    /* border-radius: 3px; */
+}
+.search{
+    padding: 7px ;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+}
+.search-input{
+    width: 85%;
+    text-align: start;
+    padding-left: 1rem;
+    font-size: 16px;
+    border: none;
+}
+.search-icon{
+    background-color: rgb(227, 170, 14);
+    width: 45px;
+    /* text-align: center; */
+    /* padding: 9px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    font-size: 20px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+.hello{
+    font-size: 14px;
+}
+.nav-sec{
+    font-size: 15px;
+    font-weight: 700;
+}
+.cart{
+    display: flex;
+    gap: 3px    ;
+}
+.cart-itm i{
+    font-size: 29px;
+}
+.cart-word{
+    font-weight: 700;
+    margin-top: 8px;
+}
+.panel{
+    height: 39px;
+    display: flex;
+    background-color: #1c2323;
+    color:white;
+    align-items: center;
+    font-size: 16px;
+    padding: 0 1rem;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+.panal-all{
+    display: flex;
+    gap: 1rem;
+    width: 75%;
+}
+.panal-conten{
+    justify-content: flex-end;
+}
+
+.hero-sec{
+    background-image: url("assests/hero_image.jpg");
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: flex-end;
+    /* margin-bottom: 500px; */
+    padding-bottom: 20px;
+
+    
+
+}
+.hero-cont{
+    background-color: white;
+    height: 40px;
+    color: black;
+    text-align: center;
+    margin: 0 1rem;
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.hero-cont a{
+    color: rgb(24, 74, 24);
+    font-weight: 700;
+}
+.box{
+    /* border: 2px solid black; */
+    width: 23%;
+    background-color: white;
+    margin-top: 1.5rem;
+}
+.box-section{
+    /* height: 410px; */
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: pink;
+    padding-bottom: 1rem;
+    
+
+}
+.img-src{
+    height: 300px;
+    background-size: cover;
+    margin: 1rem 0px;
+}
+.box-content{
+    margin: 1rem;
+    
+}
+.bot-cont {
+    color: rgb(11, 23, 11);
+    text-decoration: none;
+    
+}
+
+.panel1 {
+    height: 2rem;
+    color: white;
+    background-color: rgb(1, 24, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.panel-2{
+     height: 400px;
+     color: white;
+     background-color: #1c2727;
+     display: flex;
+     justify-content: space-evenly;
+     /* align-items: center; */
+     
+
+}
+ul{
+    padding-top: 50px;
+}
+ul a{
+    display: block;
+    padding: 6px 0;
+    
+}
+ul p{
+    font-weight: 700;
+    padding: 5px 0;
+}
+.panel-3{
+    height: 70px;
+    background-color: #1c2727;
+    border-top: 0.3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.panel-3 .logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    width: 100px;
+    background-size:cover;
+    
+
+}
+.footsec{
+    padding: 1rem 0;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footcon{
+    display: flex;
+    gap: 10px;
+    
+}
+.copyrigh{
+    font-size: 15px;
+}
